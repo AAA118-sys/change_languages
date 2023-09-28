@@ -4,7 +4,7 @@ import time
 
 
 class TestItems:
-    def test_items(self, browser):
+    def test_button_add_to_basket_is_visible(self, browser):
         link = "http://selenium1py.pythonanywhere.com/catalogue/coders-at-work_207/"
         browser.get(link)
         # browser.implicitly_wait(20)
